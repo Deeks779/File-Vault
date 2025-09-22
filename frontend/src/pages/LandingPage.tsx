@@ -42,7 +42,7 @@ const LandingPage: React.FC = () => {
       setError(null);
       try {
         const response = await publicApi.get<PublicFileInfo[]>('/files/public');
-        setAllFiles(response.data);
+        setAllFiles(response.data ?? []);
       } catch (err) {
         console.error("Failed to fetch public files:", err);
         setError('Could not load files. Please check your connection and try again later.');

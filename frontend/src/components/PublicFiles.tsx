@@ -94,7 +94,7 @@ const PublicFilesGrid: React.FC<PublicFilesGridProps> = ({ files }) => {
 
         {/* --- MOBILE CARDS --- */}
         <div className="grid grid-cols-1 gap-4 p-4 md:hidden">
-          {files.map((file) => (
+          {(files || []).map((file) => (
             <div key={file.id} className="bg-gray-50 rounded-lg shadow p-4 space-y-3">
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
