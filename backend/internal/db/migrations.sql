@@ -35,3 +35,14 @@ ADD COLUMN IF NOT EXISTS email VARCHAR(255) UNIQUE;
 
 ALTER TABLE files 
 ADD COLUMN IF NOT EXISTS download_count INT DEFAULT 0;
+
+INSERT INTO users (username, storage_quota, role, password_hash, email)
+SELECT 
+    'admin1001',
+    41943040,
+    'admin',
+    '$2a$10$e4NF/NSmjqbB0d3qbJY1LeH1AeZ/iiE1F/D6U4bTuozpI0gXjK40K',
+    'admin1001@example.com'
+WHERE NOT EXISTS (
+    SELECT 1 FROM users WHERE username = 'admin1001'
+);
