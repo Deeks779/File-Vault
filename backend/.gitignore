@@ -1,0 +1,19 @@
+# Binaries
+*.exe
+*.out
+*.o
+
+# Go build files
+bin/
+vendor/
+
+# IDE stuff
+.vscode/
+.idea/
+
+# Environment files
+.env
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
