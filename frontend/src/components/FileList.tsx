@@ -183,7 +183,7 @@ export default function FileList({ refresh }: Props) {
       </div>
 
       {/* Mobile Cards */}
-      <div className="grid gap-4 mt-4 sm:hidden">
+      <div className="grid gap-4 mt-4 md:hidden">
         {files.map((file) => (
           <div
             key={file.id}

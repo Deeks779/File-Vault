@@ -187,7 +187,7 @@ export default function Dashboard(): React.ReactElement {
           </div>
 
           {/* Mobile Cards */}
-          <div className="grid gap-4 mt-4 sm:hidden">
+          <div className="grid gap-4 mt-4 md:hidden">
             {searchResults.map((file) => (
               <div
                 key={file.id}
