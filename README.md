@@ -1,4 +1,4 @@
-<h1>BalkanID Full Stack Engineering Intern — Capstone Hiring Task</h1>
+<h1>File-Vault - File Storage Management</h1>
 
 <p>
   A secure file vault system built with a <b>Go backend</b> and a <b>React frontend</b>.  
