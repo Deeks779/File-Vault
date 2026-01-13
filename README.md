@@ -111,11 +111,3 @@ docker-compose up --build
   <li><a href="./docs/DATABASE.md">Database Schema</a> → Tables, relationships, and migrations</li>
   <li><a href="./docs/API.md">API Reference</a> → REST API endpoints with examples</li>
 </ul>
-
-<hr>
-
-<h2>👩‍💻 Author</h2>
-<p><b>Deeksha Kushwaha</b><br>
-Capstone Project for <b>BalkanID Full Stack Engineering Intern Hiring Task</b></p>
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2xw7QaEj)
