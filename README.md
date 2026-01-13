@@ -5,9 +5,21 @@
   This project implements <b>content-based deduplication</b>, <b>secure file sharing</b>, and 
   <b>powerful search capabilities</b> to provide a production-ready file storage solution.
 </p>
+<hr>
 
+<h2>Live Demo</h2>
+<p>
+  <b>Frontend:</b> 
+  <a href="https://file-vault-zz38.onrender.com" target="_blank">
+    https://file-vault-zz38.onrender.com
+  </a>
+</p>
 
-
+<h2>Admin Login Credentials</h2>
+<ul>
+  <li><b>Username:</b> <code>admin1001</code></li>
+  <li><b>Password:</b> <code>12345</code></li>
+</ul>
 <hr>
 
 <h2>🚀 Core Features</h2>
